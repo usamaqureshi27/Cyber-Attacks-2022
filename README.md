@@ -1,7 +1,7 @@
-# Cyber_Attacks_2022
+# Cyber Attacks 2022 Visualization
 
 The purpose of this small project is to visualize cyber attacks in 2022 based upon country, type and area of fields all around the globe.\
-In recent times I came across lot of news about cyber attacks (including our hostel whose server was hacked for several months halting all the payment and email system) in Germany so I thought to create a visualisation based on some data. Thanks to Bert Kondruss for collecting and providing me with the data which is publically available at his website [here](https://konbriefing.com/en-topics/cyber-attacks-2022.html). 
+In recent times I came across lot of news about cyber attacks (including our hostel whose server was hacked for several months halting all the payment and email system) in Germany so I thought to create a visualisation based on some data. Thanks to Bert Kondruss for collecting and providing publically available data at his website [here](https://konbriefing.com/en-topics/cyber-attacks-2022.html).
 
 ## Data Cleaning
  I started this project with the aim of using web scraping technique to acquire data but then I found out this pandas html method to directly grab the table. df = pd.read_html(url)[0]
